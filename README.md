@@ -27,20 +27,20 @@ Run the following commands from the `software` directory.
 When the dimension of the orbit closure is known, run:
 
 ```bash
-M2 main.m2 -e 'OrbitClosures("loops/<loop-name>.m2", <dimension>)'
+M2 main.m2 -e 'OrbitClosure("loops/<loop-name>.m2", <dimension>)'
 ```
 
 For example:
 
 ```bash
-M2 main.m2 -e 'OrbitClosures("loops/ex2.m2", 2)'
+M2 main.m2 -e 'OrbitClosure("loops/ex2.m2", 2)'
 ```
 
 Alternatively, start Macaulay2 in the `software` directory and run:
 
 ```macaulay2
 load "main.m2"
-OrbitClosures("loops/<loop-name>.m2", <dimension>)
+OrbitClosure("loops/<loop-name>.m2", <dimension>)
 ```
 
 The output consists of two entries:
